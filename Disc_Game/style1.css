@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+    font-family:sans-serif;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.disc{
+    display: block;
+    position: relative;
+    padding: 100px 80px;
+}
+
+.row{
+    display: flex;
+
+}
+
+.col-6{
+    width: 50%;
+
+}
+
+.img-disc{
+    border-radius: 24%;
+    box-shadow: 0px 15px 15px 2px black;
+    height: 200px;
+}
+
+button{
+    margin-top: 40px;
+    height: 54px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0;
+
+}
+
+button:hover{
+    color: brown;
+}
